@@ -1,22 +1,28 @@
 // ignore_for_file: avoid_print
 
-// Parameterized Constructor With Named Parameters In Dart
+//Named Constructor In Dart
+
 class Student {
   String? name;
   int? age;
   int? rollNumber;
 
-  // Constructor
-  Student({String? name, int? age, int? rollNumber}) {
+  // Default Constructor
+  Student() {
+    print("This is a default constructor");
+  }
+
+  // Named Constructor
+  Student.namedConstructor(String name, int age, int rollNumber) {
     this.name = name;
     this.age = age;
     this.rollNumber = rollNumber;
   }
 }
 
-void main(){
+void main() {
   // Here student is object of class Student.
-  Student student = Student(name: "John", age: 20, rollNumber: 1);
+  Student student = Student.namedConstructor("John", 20, 1);
   print("Name: ${student.name}");
   print("Age: ${student.age}");
   print("Roll Number: ${student.rollNumber}");
