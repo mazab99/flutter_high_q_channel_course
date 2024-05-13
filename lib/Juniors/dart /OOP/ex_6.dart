@@ -1,6 +1,6 @@
 // ignore_for_file: avoid_print
 
-//Syntax od  Class In Dart
+//Syntax of  Class In Dart
 
 //class ClassName {
 // properties or fields

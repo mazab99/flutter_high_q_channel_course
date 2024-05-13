@@ -224,6 +224,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.0.1"
+  high_q_paginated_drop_down:
+    dependency: "direct main"
+    description:
+      name: high_q_paginated_drop_down
+      sha256: e22502336cb5538150588d892f19f469e4e17cc7d935031682dad9a3a0b8ed56
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.0.2"
   html:
     dependency: transitive
     description:
@@ -702,5 +710,5 @@ packages:
     source: hosted
     version: "1.0.3"
 sdks:
-  dart: ">=3.2.0-0 <4.0.0"
+  dart: ">=3.2.3 <4.0.0"
   flutter: ">=3.13.0"

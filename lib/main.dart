@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mahmoud/screens/paginated_drop_down.dart';
 import 'package:mahmoud/screens/search_in_drop_down.dart';
 import 'package:quick_actions/quick_actions.dart';
 
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.red),
         useMaterial3: true,
       ),
-      home: SearchInDropDown(),
+      home: PaginatedDropDown(),
     );
   }
 }
