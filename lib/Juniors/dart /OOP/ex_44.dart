@@ -1,0 +1,2 @@
+//Inheritance In Dart
+//Inheritance is a sharing of behaviour between two classes. It allows you to define a class that extends the functionality of another class. The extend keyword is used for inheriting from parent class.

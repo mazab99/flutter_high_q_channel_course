@@ -130,3 +130,25 @@ class FavScreen extends StatelessWidget {
   }
 }
 const String SEARCH_URL='https://api.waslah.app/api/v1/countries';
+
+
+//what is Encapsulation In Dart ?
+// What Is Library In Dart?
+// How To Achieve Encapsulation In Dart?
+//
+// create a class named Employee. The class will have two private properties _id and _name. We will also create two public methods getId() and getName() to access the private properties. We will also create two public methods setId() and setName() to update the private properties.
+//
+// what is Getter In Dart ?
+// Syntax of Getter in dart ?
+// Why Is Getter Important In Dart?
+// what is Setter In Dart ?
+// Syntax of Setter in dart ?
+// Why Is Setter Important?
+// Use Of Getter and Setter.
+// what is Inheritance In Dart ?
+// Syntax of Inheritance ?
+// create a class Person and then create a class Student that inherits the properties and methods of the Person class
+//
+// Advantages Of Inheritance In Dart
+//
+// create class Car and child class Toyota. The Toyota class inherits the properties and methods of the Car class.
